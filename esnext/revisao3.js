@@ -39,4 +39,6 @@ class cachorro extends animal {
   }
 }
 
-console.log(new cachorro().jump(), new cachorro().falar()) // usando a função construtora e criar objetos a partir de uma class  "new "/// au au !!
+console.log(new cachorro().jump(), new cachorro().falar())
+// usando a função construtora e criar objetos a partir de uma class  "new "
+/// pular au au !!
