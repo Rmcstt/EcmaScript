@@ -1,7 +1,7 @@
 // sem promise
 
 const http = require('http')
-
+// sem promisse
 const getTurma = (letra, callback) => {
   const url = `http://files.cod3r.com.br/curso-js/turma${letra}.json`
   http.get(url, res => {
@@ -27,3 +27,4 @@ getTurma('A', alunos => {
     })
   })
 })
+// uma callback dentro da outra, callback hell
